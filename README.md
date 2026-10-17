@@ -12,6 +12,10 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+## Styling
+
+This project uses [Tailwind CSS](https://tailwindcss.com/) (v4). The theme (colors and fonts) is defined in `src/styles.css` through `@theme`, and components are styled with utility classes directly in their templates.
+
 ## Code scaffolding
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
