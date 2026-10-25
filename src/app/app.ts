@@ -1,11 +1,13 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Header } from './components/header/header';
+//import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [Header],
   templateUrl: './app.html',
-  host: { class: 'block h-dvh font-sans antialiased' },
+  styleUrls: ['./app.css'],
+  //host: { class: 'block h-dvh font-sans antialiased' },
 })
 export class App {
   protected readonly title = signal('go-task');

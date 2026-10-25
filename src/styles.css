@@ -1,21 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-@theme {
-  --color-bright-blue: oklch(51.01% 0.274 263.83);
-  --color-electric-violet: oklch(53.18% 0.28 296.97);
-  --color-french-violet: oklch(47.66% 0.246 305.88);
-  --color-vivid-pink: oklch(69.02% 0.277 332.77);
-  --color-hot-red: oklch(61.42% 0.238 15.34);
-  --color-orange-red: oklch(63.32% 0.24 31.68);
-
-  --color-gray-900: oklch(19.37% 0.006 300.98);
-  --color-gray-700: oklch(36.98% 0.014 302.71);
-  --color-gray-400: oklch(70.9% 0.015 304.04);
-
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  --font-inter-tight: "Inter Tight", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
+html {
+  --font-sans: "Archivo", sans-serif;
 }
+
